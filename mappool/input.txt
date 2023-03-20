@@ -1,0 +1,14 @@
+NM1: https://osu.ppy.sh/beatmapsets/1179677#osu/2947175
+NM2: https://osu.ppy.sh/beatmapsets/1291247#osu/2680248
+NM3: https://osu.ppy.sh/beatmapsets/1579180#osu/3323779
+NM4: https://osu.ppy.sh/beatmapsets/1530616#osu/3130696
+NM5: https://osu.ppy.sh/beatmapsets/1485374#osu/3045915
+
+HD1: https://osu.ppy.sh/beatmapsets/846579#osu/1770594
+HD2: https://osu.ppy.sh/beatmapsets/1152554#osu/2405667
+
+HR1: https://osu.ppy.sh/beatmapsets/940746#osu/1964722
+HR2: https://osu.ppy.sh/beatmapsets/301993#osu/676979
+
+DT1: https://osu.ppy.sh/beatmapsets/310508#osu/693966
+DT2: https://osu.ppy.sh/beatmapsets/292857#osu/658961
