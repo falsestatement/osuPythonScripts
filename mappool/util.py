@@ -1,7 +1,7 @@
 import requests
 from dotenv import load_dotenv
 from os import environ
-import json
+import auth
 
 
 def getBeatmapInfo(beatmapId, mods=[]):
@@ -38,8 +38,8 @@ def getBeatmapInfo(beatmapId, mods=[]):
     info["id"] = infoRes["id"]
     info["mapset_id"] = infoRes["beatmapset"]["id"]
     info["cover_url"] = infoRes["beatmapset"]["covers"]["cover"]
-    info["artist"] = infoRes["beatmapset"]["artist"]
-    info["title"] = infoRes["beatmapset"]["title"]
+    info["artist"] = infoRes["beatmapset"]["artist"].replace("\"", "'")
+    info["title"] = infoRes["beatmapset"]["title"].replace("\"", "'")
     info["diff_name"] = infoRes["version"]
     info["star_rating"] = attributeRes["star_rating"]
     info["ar"] = round(attributeRes["approach_rate"], 1)
