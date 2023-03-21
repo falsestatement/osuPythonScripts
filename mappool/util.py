@@ -42,10 +42,11 @@ def getBeatmapInfo(beatmapId, mods=[]):
     info["title"] = infoRes["beatmapset"]["title"]
     info["diff_name"] = infoRes["version"]
     info["star_rating"] = attributeRes["star_rating"]
-    info["ar"] = attributeRes["approach_rate"]
+    info["ar"] = round(attributeRes["approach_rate"], 1)
     info["od"] = round(attributeRes["overall_difficulty"], 1)
     info["hp"] = round(min(infoRes["drain"] * hpMod, 10), 1)
     info["cs"] = round(min(infoRes["cs"] * csMod, 10), 1)
     info["bpm"] = round(infoRes["bpm"] * bpmMod, 1)
+    info["length"] = f"{int((infoRes['total_length'] / bpmMod) / 60)}:{round((infoRes['total_length'] / bpmMod) % 60):02d}"
 
-    print(json.dumps(info, indent=2))
+    return info
