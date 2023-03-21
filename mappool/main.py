@@ -1,7 +1,6 @@
 from auth import refreshToken
 from util import getBeatmapInfo
 import re
-import os
 
 with open("input.txt") as input:
     pool = list(filter(None, (line.rstrip() for line in input)))
