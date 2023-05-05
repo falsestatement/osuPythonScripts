@@ -1,4 +1,7 @@
 # osu! Tournament Organizer
+## Initial Setup
+Before you can use any of the scripts, make sure you have setup your osu! credentials. You can do this by first requesting a OAuth 
+
 ## Mappool Formatter
 ### Map Link Input
 Enter the map links and mod category into the `input.txt` file in the mappool folder. Each new map should take up a new line, starting with the mod category, followed by the map link.

@@ -1,12 +1,21 @@
-		Song Name	Difficulty	Star Ratingt	Length	BPM	CS	HP	AR	OD	Beatmap ID
-NM1	=IMAGE("https://assets.ppy.sh/beatmaps/1179677/covers/cover.jpg?1620786621")	=HYPERLINK("https://osu.ppy.sh/b/2947175", "nano feat. MY FIRST STORY - SAVIOR OF SONG")	CRASH DIVE	6.948019981384277	4:03	192	4.2	6	9.6	9.2	2947175
-NM2	=IMAGE("https://assets.ppy.sh/beatmaps/1291247/covers/cover.jpg?1636230868")	=HYPERLINK("https://osu.ppy.sh/b/2680248", "Aether Realm - Tarot")	Final Stand	6.789720058441162	3:16	190	4.2	5	9.7	9.2	2680248
-NM3	=IMAGE("https://assets.ppy.sh/beatmaps/1579180/covers/cover.jpg?1637851403")	=HYPERLINK("https://osu.ppy.sh/b/3323779", "Yonekura Chihiro - DEAR MY WAKER")	FlyingTuna's Extra	6.2329301834106445	3:58	140	3.8	4.6	9.6	9	3323779
-NM4	=IMAGE("https://assets.ppy.sh/beatmaps/1530616/covers/cover.jpg?1637526621")	=HYPERLINK("https://osu.ppy.sh/b/3130696", "BEMANI Sound Team 'Expander' - Neuron")	Crack	6.683680057525635	1:47	174	4.2	4	9.7	9	3130696
-NM5	=IMAGE("https://assets.ppy.sh/beatmaps/1485374/covers/cover.jpg?1625459428")	=HYPERLINK("https://osu.ppy.sh/b/3045915", "The Ghost of 3.13 - Daydream")	KKip Hates NM5	6.7881999015808105	2:44	235	4	6	9.6	9.2	3045915
-HD1	=IMAGE("https://assets.ppy.sh/beatmaps/846579/covers/cover.jpg?1536520685")	=HYPERLINK("https://osu.ppy.sh/b/1770594", "Nabuna: Kagamine Rin - Yotsuya-san ni Yoroshiku")	3331	6.68503999710083	2:49	220	4	6	9.4	9	1770594
-HD2	=IMAGE("https://assets.ppy.sh/beatmaps/1152554/covers/cover.jpg?1650699560")	=HYPERLINK("https://osu.ppy.sh/b/2405667", "raito - Blood Drain -Again-")	Expert	5.630189895629883	3:28	190	3.8	6	8	8	2405667
-HR1	=IMAGE("https://assets.ppy.sh/beatmaps/940746/covers/cover.jpg?1650683220")	=HYPERLINK("https://osu.ppy.sh/b/1964722", "CHiCO with HoneyWorks - Kimi ga Sora Koso Kanashikere")	Elgatsu's Sorrow	6.516590118408203	3:06	198	5.5	8.4	10	10	1964722
-HR2	=IMAGE("https://assets.ppy.sh/beatmaps/301993/covers/cover.jpg?0")	=HYPERLINK("https://osu.ppy.sh/b/676979", "Tatsh - Xepher")	Ynsane	6.467309951782227	1:59	170	6.5	9.8	10	9.8	676979
-DT1	=IMAGE("https://assets.ppy.sh/beatmaps/310508/covers/cover.jpg?1650630547")	=HYPERLINK("https://osu.ppy.sh/b/693966", "Annabel - Signal Graph")	Insane	6.692770004272461	3:03	250.5	4	6	10.2	9.4	693966
-DT2	=IMAGE("https://assets.ppy.sh/beatmaps/292857/covers/cover.jpg?1622083717")	=HYPERLINK("https://osu.ppy.sh/b/658961", "maritumix - Defiance")	Lunatic	7.113080024719238	2:54	247.5	4	7	10	9.1	658961
+Mod	Cover	Song Name	Difficulty	Star Rating	Length	BPM	CS	HP	AR	OD	Beatmap ID
+NM1	=IMAGE("https://assets.ppy.sh/beatmaps/487907/covers/cover.jpg?1650648642")	=HYPERLINK("https://osu.ppy.sh/beatmaps/1040115", "Yuki Hayashi - You Say Run")	Plus Ultra	5.7	3:40	175	4	7	9.2	8.5	1040115
+NM2	=IMAGE("https://assets.ppy.sh/beatmaps/1846620/covers/cover.jpg?1665331259")	=HYPERLINK("https://osu.ppy.sh/beatmaps/3793343", "NOMA - Brain Power (Cranky Remix)")	brain pig	5.6	3:31	165	3.8	6	8.7	7	3793343
+NM3	=IMAGE("https://assets.ppy.sh/beatmaps/1930803/covers/cover.jpg?1677894801")	=HYPERLINK("https://osu.ppy.sh/beatmaps/3988647", "Thalia - Arrasando")	Experto	5.6	3:53	132	4.1	5	9.4	8.8	3988647
+NM4	=IMAGE("https://assets.ppy.sh/beatmaps/1480553/covers/cover.jpg?1668420060")	=HYPERLINK("https://osu.ppy.sh/beatmaps/3037074", "Katy Perry - California Gurls feat. Snoop Dogg")	Warm, Wet & Wild	5.3	3:52	125	5	5	9.2	8	3037074
+NM5	=IMAGE("https://assets.ppy.sh/beatmaps/1977194/covers/cover.jpg?1681798958")	=HYPERLINK("https://osu.ppy.sh/beatmaps/4104495", "The Quick Brown Fox - WANDERLUST")	WONTON X PAKA (LUST)	5.8	1:47	250	3.8	5	9.4	8.6	4104495
+NM6	=IMAGE("https://assets.ppy.sh/beatmaps/1283652/covers/cover.jpg?1622200133")	=HYPERLINK("https://osu.ppy.sh/beatmaps/2767205", "Detox Unit - Expand")	squirrelp's Insane	4.6	3:41	87	5.8	4	8.6	7.5	2767205
+NM7	=IMAGE("https://assets.ppy.sh/beatmaps/1707712/covers/cover.jpg?1681735362")	=HYPERLINK("https://osu.ppy.sh/beatmaps/3489502", "Qrispy Joybox feat. Yu Tokiwa - Shiratsuyu no Kaze")	Expert	5.3	1:55	166	4.5	6	9	8.7	3489502
+HD1	=IMAGE("https://assets.ppy.sh/beatmaps/1932539/covers/cover.jpg?1678125774")	=HYPERLINK("https://osu.ppy.sh/beatmaps/3992841", "Komsomol'sk - Chorniye ochki")	she says kalashnikov	5.5	2:15	170	4	5	9.1	8.5	3992841
+HD2	=IMAGE("https://assets.ppy.sh/beatmaps/993507/covers/cover.jpg?1631512257")	=HYPERLINK("https://osu.ppy.sh/beatmaps/2113861", "Rin - Eientewi set 06 ~ Plain Asia")	Insane	4.7	3:31	138	4.2	5	8	7	2113861
+HD3	=IMAGE("https://assets.ppy.sh/beatmaps/352046/covers/cover.jpg?1622093043")	=HYPERLINK("https://osu.ppy.sh/beatmaps/775806", "xi - Wish upon Twin Stars")	WISH	5.5	1:57	200	4	7	9	8	775806
+HR1	=IMAGE("https://assets.ppy.sh/beatmaps/1846589/covers/cover.jpg?1668348243")	=HYPERLINK("https://osu.ppy.sh/beatmaps/3793291", "Harry Styles - As It Was")	sajinn & sotarks' expert	5.6	2:41	174	5.2	7.3	10	10	3793291
+HR2	=IMAGE("https://assets.ppy.sh/beatmaps/1061947/covers/cover.jpg?1650689093")	=HYPERLINK("https://osu.ppy.sh/beatmaps/2251927", "Britney Spears - Toxic")	Insane	5.3	3:17	143	6.5	7.0	10	9.7	2251927
+HR3	=IMAGE("https://assets.ppy.sh/beatmaps/1928448/covers/cover.jpg?1677658842")	=HYPERLINK("https://osu.ppy.sh/beatmaps/4023783", "Mili - Cerebrite")	Insane	5.1	2:35	148	5.2	7.7	10	10	4023783
+DT1	=IMAGE("https://assets.ppy.sh/beatmaps/416702/covers/cover.jpg?1622099981")	=HYPERLINK("https://osu.ppy.sh/beatmaps/1959554", "nameless x toa - Patchwork Staccato")	Insane	5.7	2:42	208.5	4	5.5	9.8	9.6	1959554
+DT2	=IMAGE("https://assets.ppy.sh/beatmaps/697087/covers/cover.jpg?1650656744")	=HYPERLINK("https://osu.ppy.sh/beatmaps/1481150", "Y&Co. - Daisuke")	Hyper	5.4	1:19	235.5	4	5	9.7	8.4	1481150
+DT3	=IMAGE("https://assets.ppy.sh/beatmaps/1069288/covers/cover.jpg?1622174389")	=HYPERLINK("https://osu.ppy.sh/beatmaps/2247022", "BUTAOTOME - Towa no Maigo")	Hard	5.5	1:55	270.0	4	5	9.3	8.4	2247022
+DT4	=IMAGE("https://assets.ppy.sh/beatmaps/1041151/covers/cover.jpg?1650690446")	=HYPERLINK("https://osu.ppy.sh/beatmaps/2190831", "System Of A Down - Toxicity")	CChu's Hard	5.2	2:26	355.5	3.5	5	9.7	8.8	2190831
+TB1	=IMAGE("https://assets.ppy.sh/beatmaps/798302/covers/cover.jpg?1622141752")	=HYPERLINK("https://osu.ppy.sh/beatmaps/1676409", "Saiya - Remote Control")	Sit Down Please!	5.8	5:01	165	4	5.5	9.2	9	1676409
+TB2	=IMAGE("https://assets.ppy.sh/beatmaps/436611/covers/cover.jpg?1622101856")	=HYPERLINK("https://osu.ppy.sh/beatmaps/940378", "DM DOKURO - Reality Check Through The Skull")	UnReality	5.6	5:29	260	4	6	9.7	8.5	940378
+TB3	=IMAGE("https://assets.ppy.sh/beatmaps/830666/covers/cover.jpg?1650668349")	=HYPERLINK("https://osu.ppy.sh/beatmaps/1751858", "USAO - USAO ULTIMATE HYPER MEGA MIX")	PROBOX x TOYBOT's HEADSHOT GG NOOB INSANE	5.6	5:04	200	4	5	9.2	8.2	1751858

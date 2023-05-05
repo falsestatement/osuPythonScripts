@@ -9,7 +9,7 @@ with open("input.txt") as input:
 with open("output.txt", "w+") as output:
     modCounter = dict()
     output.write(
-        "\t\tSong Name\tDifficulty\tStar Ratingt\tLength\tBPM\tCS\tHP\tAR\tOD\tBeatmap ID\n")
+        "Mod\tCover\tSong Name\tDifficulty\tStar Rating\tLength\tBPM\tCS\tHP\tAR\tOD\tBeatmap ID\n")
     for beatmap in pool:
         beatmapId = re.findall(r'\d+', beatmap)[-1]
         mod = beatmap[:2].upper()
@@ -17,13 +17,13 @@ with open("output.txt", "w+") as output:
             modCounter[mod] = 0
         modCounter[mod] += 1
         mods = []
-        if mod != "FM" and mod != "NM":
+        if mod != "FM" and mod != "NM" and mod != "TB":
             mods.append(mod)
         info = getBeatmapInfo(beatmapId, mods)
 
         t = '\t'
         fBanner = f"=IMAGE(\"{info['cover_url']}\")"
-        fTitle = f"=HYPERLINK(\"https://osu.ppy.sh/b/{beatmapId}\", \"{info['artist']} - {info['title']}\")"
+        fTitle = f"=HYPERLINK(\"https://osu.ppy.sh/beatmaps/{beatmapId}\", \"{info['artist']} - {info['title']}\")"
         fMod = f"{mod}{modCounter[mod]}"
         print(f"Processed: {fMod}")
         output.write(fMod + t

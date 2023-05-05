@@ -1,7 +1,6 @@
 import requests
 from dotenv import load_dotenv
 from os import environ
-import auth
 
 
 def getBeatmapInfo(beatmapId, mods=[]):
@@ -33,7 +32,7 @@ def getBeatmapInfo(beatmapId, mods=[]):
     if "DT" in mods:
         bpmMod *= 1.5
     if "HT" in mods:
-        bpmMod *= 0.5
+        bpmMod *= 0.75
 
     info["id"] = infoRes["id"]
     info["mapset_id"] = infoRes["beatmapset"]["id"]
@@ -41,7 +40,7 @@ def getBeatmapInfo(beatmapId, mods=[]):
     info["artist"] = infoRes["beatmapset"]["artist"].replace("\"", "'")
     info["title"] = infoRes["beatmapset"]["title"].replace("\"", "'")
     info["diff_name"] = infoRes["version"]
-    info["star_rating"] = attributeRes["star_rating"]
+    info["star_rating"] = round(attributeRes["star_rating"], 1)
     info["ar"] = round(attributeRes["approach_rate"], 1)
     info["od"] = round(attributeRes["overall_difficulty"], 1)
     info["hp"] = round(min(infoRes["drain"] * hpMod, 10), 1)
