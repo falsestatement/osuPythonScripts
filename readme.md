@@ -1,4 +1,4 @@
-# osu! Tournament Organizer
+# osu! Python Scripts
 ## Initial Setup
 Before you can use any of the scripts, make sure you have setup your osu! credentials. You can do this by first requesting a OAuth 
 
